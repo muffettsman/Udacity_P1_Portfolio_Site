@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width initial-scale=1">
+		<title>UDACITY Project 1 Portfolio</title>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<!-- Font that is close to the design mockup -->
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/style.css">
+		
+		<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		
+		<!-- Using placeholder images from http://lorempixel.com/ -->
+		<!-- Corporate Lipsum from http://www.cipsum.com/ -->
+		
+	</head>
+	<body>
+		<!-- per bootstrap everything must be in a container -->
+		<div class = "container">
+			<div class = "row"> <!-- Title Bar -->
+				<div class = "col-md-6">
+					<img class = "title-logo" src="http://lorempixel.com/100/100/abstract/Logo" alt="Portfolio Logo" />
+				</div>
+				<div class = "col-md-6 text-right text-uppercase">
+					<h1 class = "text-large text-thin">Jane Doette</h1>
+					<h4>Front-End Ninja</h4>
+				</div>
+			</div>
+			<div class = "row">
+				<div class = "col-md-12">
+					<!-- need to make HR THICKER -->
+					<hr> <!-- Horizontal Rule divides Title bar from page -->
+				</div>
+			</div>
+			<div class = "row">
+				<div class = "col-md-12">
+					<img class = "image-responsive" src="http://lorempixel.com/940/350/abstract/Main" alt="Main Image" />
+				</div>
+			</div>
+			<div class = "row">
+				<div class = "col-md-12">
+					<h2 class = "text-muted">Featured Work</h2>
+				</div>
+			</div>
+			<div class = "row text-center">
+				<div class = "col-md-4">
+					<a href="#appifyModal" role="button" data-toggle="modal">
+						<img class = "image-responsive" src="http://lorempixel.com/300/200/abstract/1"  alt="Appify Image"/>
+					</a>
+					<h3 class = "text-uppercase">Appify</h3>
+					<p>https://github.com/udacity/Appify</p>
+				</div>
+				<div class = "col-md-4">
+					<a href="#sunflowerModal" role="button" data-toggle="modal">
+						<img class = "image-responsive" src="http://lorempixel.com/300/200/abstract/2" alt="Sunflower Image" />
+					</a>
+					<h3 class = "text-uppercase">Sunflower</h3>
+					<p>https://github.com/udacity/Sunflower</p>
+				</div>
+				<div class = "col-md-4">
+					<a href="#bokehModal" role="button" data-toggle="modal">
+						<img class = "image-responsive" src="http://lorempixel.com/300/200/abstract/3" alt="Bokeh Image" />
+					</a>
+					<h3 class = "text-uppercase">Bokeh</h3>
+					<p>https://github.com/udacity/Bokeh</p>
+				</div>
+			</div>
+		
+		
+		
+		
+			<div class="modal fade" id="appifyModal" tabindex="-1" role="dialog" aria-hidden="true">
+			  <div class="modal-dialog">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<h3 class = "text-uppercase text-center">Appify</h3>
+				  </div>
+				  <div class="modal-body">
+					<img class = "image-responsive" src="http://lorempixel.com/300/200/abstract/1" alt="Appify Image" />
+						<p>https://github.com/udacity/Appify</p>
+						<p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
+				  </div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				  </div>
+				</div>
+			  </div>
+			</div>
+			
+			<div class="modal fade" id="sunflowerModal" tabindex="-1" role="dialog" aria-hidden="true">
+			  <div class="modal-dialog">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<h3 class = "text-uppercase text-center">Sunflower</h3>
+				  </div>
+				  <div class="modal-body">
+					<img class = "image-responsive" src="http://lorempixel.com/300/200/abstract/2" alt="Sunflower Image" />
+						<p>https://github.com/udacity/Sunflower</p>
+						<p>Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions.</p>
+				  </div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				  </div>
+				</div>
+			  </div>
+			</div>
+			
+			<div class="modal fade" id="bokehModal" tabindex="-1" role="dialog" aria-hidden="true">
+			  <div class="modal-dialog">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<h3 class = "text-uppercase text-center">Bokeh</h3>
+				  </div>
+				  <div class="modal-body">
+					<img class = "image-responsive" src="http://lorempixel.com/300/200/abstract/3" alt="Bokeh Image" />
+						<p>https://github.com/udacity/Bokeh</p>
+						<p>Completely synergize resource sucking relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
+				  </div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		</div> <!-- container -->
+	</body>
+	
+</html>
+

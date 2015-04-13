@@ -1,0 +1,82 @@
+* {
+	border: 1px solid red !important;
+}
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* .something is how to call the class something */
+
+/****************************************************
+ padding adds space on the inside of the element
+ margin adds space on the outside of the element 
+ use the box model (lower left) in chrome dev tools to 
+ see whats making the space 
+ a margin pushes elements away from each other 
+ padding makes elements inside smaller
+ overflow: auto will make a scroll bar to help keep 
+ text contained inside its element and not 'overflow'
+ to the lower elements
+ 
+ responsive design (see gizmodo.com) as you make the
+ page smaller its layout changes to accommodate the 
+ smaller view (idea for browsing on a tablet or phone)
+ via 'media queries' @media
+ 
+ placehold.it - makes simple placeholder images
+ or placepuppy.it / placekitten.com little less boring
+ 
+ google.com/fonts to find fonts close to mockup
+ ****************************************************/
+ 
+@media only screen and (max-width: 500px) {
+	p {
+		/* background-color: blue; */
+		display: none;
+	}
+}
+.row {
+	width: 100%;
+	display: flex;
+	flex-wrap;
+	wrap;
+}
+.col-1 {
+	width: 8.33%
+}
+.col-2 {
+	width: 16.66%;
+}
+.col-3 {
+	width: 25%;
+}
+.col-4{ro
+	width: 33.33%;
+}
+.col-5{
+	width: 41.66%;
+}
+.col-6 {
+	width: 50%;
+}
+.col-7 {
+	width: 58.33%;
+}
+.col-8 {
+	width: 66.66%;
+}
+.col-9 {
+	width: 75%;
+}
+.col-10 {
+	width: 83.33%;
+}
+.col-11 {
+	width: 91.66%;
+}
+.col-12 {
+	width: 100%;
+}
